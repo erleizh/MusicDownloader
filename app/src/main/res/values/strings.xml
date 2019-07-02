@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MusicDownloader</string>
+    <string name="network_exception">网络错误</string>
+    <string name="network_parse_exception">解析错误</string>
+    <string name="network_connection_failed_please_check_the_network">连接错误</string>
+    <string name="network_unknown_error">未知错误</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_main_nav_search">搜索</string>
+    <string name="activity_main_nav_settings">设置</string>
+    <string name="activity_main_nav_download">下载</string>
+</resources>

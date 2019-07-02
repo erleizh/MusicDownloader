@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".module.MainActivity.">
+
+
+    <item
+        android:id="@+id/search_view"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="1"
+        android:title="@string/search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/selectAll"
+        android:orderInCategory="0"
+        android:title="@string/select_all" />
+    <item
+        android:id="@+id/inverseSelection"
+        android:orderInCategory="0"
+        android:title="@string/inverse_selection" />
+
+    <item
+        android:id="@+id/cancelAll"
+        android:orderInCategory="0"
+        android:title="@string/cancel_selection" />
+
+    <item
+        android:id="@+id/download"
+        android:orderInCategory="2"
+        android:title="@string/download" />
+</menu>

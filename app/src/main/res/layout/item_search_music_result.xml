@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        tools:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_music_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        app:layout_constraintStart_toEndOf="@id/iv_pic"
+        tools:text="山水之间" />
+
+    <TextView
+        android:id="@+id/tv_music_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="3dp"
+        android:lines="1"
+        android:singleLine="true"
+        app:layout_constraintStart_toEndOf="@id/iv_pic"
+        app:layout_constraintTop_toBottomOf="@id/tv_music_name"
+        tools:text="许嵩" />
+
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/cb_checked"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

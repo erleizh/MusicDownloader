@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">搜索</string>
+    <string name="select_all">全选</string>
+    <string name="inverse_selection">反选</string>
+    <string name="cancel_selection">取消选择</string>
+    <string name="download">下载</string>
+    <string name="format_start_download">已开始 %d 个下载任务</string>
+</resources>
